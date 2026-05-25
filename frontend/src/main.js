@@ -111,6 +111,9 @@ wsClient.connect((data) => {
     }
 
     if (data.type === "prediction_result") {
+        if (data.branches && data.branches.length > 0) {
+            graphRenderer.drawPredictionBranches(data.branches);
+        }
         temporalControls.updateTicker(`Predicted alternate futures calculated.`);
     }
 });

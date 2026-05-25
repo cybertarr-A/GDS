@@ -70,7 +70,7 @@ async def websocket_endpoint(websocket: WebSocket):
             elif action == "inject":
                 content = message.get("content", "")
                 if content:
-                    node_id = universe.inject_thought(content)
+                    node_id = await universe.inject_thought(content)
                     response = {
                         "type": "thought_injected",
                         "node_id": node_id,
@@ -81,7 +81,7 @@ async def websocket_endpoint(websocket: WebSocket):
             elif action == "reason":
                 start_node = message.get("start_node")
                 if start_node is not None and int(start_node) in universe.manifold.nodes:
-                    res = universe.trigger_reasoning(int(start_node))
+                    res = await universe.trigger_reasoning(int(start_node))
                     response = {
                         "type": "reasoning_result",
                         "path": res["path"],
@@ -94,7 +94,7 @@ async def websocket_endpoint(websocket: WebSocket):
             elif action == "predict":
                 start_node = message.get("start_node")
                 if start_node is not None and int(start_node) in universe.manifold.nodes:
-                    futures = universe.trigger_prediction(int(start_node))
+                    futures = await universe.trigger_prediction(int(start_node))
                     response = {
                         "type": "prediction_result",
                         "branches": futures,

@@ -1,6 +1,7 @@
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 from core.shared import universe
+from core.export_engine import GDSExportEngine
 
 router = APIRouter()
 
@@ -79,3 +80,34 @@ def reverse_timeline():
 def speed_timeline(req: SpeedRequest):
     universe.temporal_engine.set_speed(req.speed)
     return {"status": "speed_updated", "speed": universe.temporal_engine.playback_speed}
+
+
+# ==========================================
+# Persistent Memory Routes
+# ==========================================
+
+class MemoryStoreRequest(BaseModel):
+    content: str
+
+
+@router.get("/memory/search")
+def search_memory(q: str):
+    if not q.strip():
+        raise HTTPException(status_code=400, detail="Query cannot be empty")
+    query_vector = universe.embedding_engine.encode(q)[0]
+    results = GDSExportEngine.db.search_memory(query_vector)
+    return results
+
+
+@router.post("/memory/store")
+def store_memory(req: MemoryStoreRequest):
+    if not req.content.strip():
+        raise HTTPException(status_code=400, detail="Content cannot be empty")
+    vector = universe.embedding_engine.encode(req.content)[0]
+    GDSExportEngine.db.store_memory(req.content, vector)
+    return {"status": "success", "content": req.content}
+
+
+@router.get("/memory/history")
+def get_memory_history():
+    return GDSExportEngine.db.get_memory_history()

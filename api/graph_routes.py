@@ -81,11 +81,11 @@ def search_graph(q: str = Query(..., description="Query string to search in node
 
 
 @router.post("/api/graph/inject")
-def inject_thought(req: InjectionRequest):
+async def inject_thought(req: InjectionRequest):
     if not req.content.strip():
         raise HTTPException(status_code=400, detail="Content cannot be empty")
         
-    node_id = universe.inject_thought(req.content)
+    node_id = await universe.inject_thought(req.content)
     return {
         "status": "success",
         "injected_node_id": node_id,
@@ -95,11 +95,11 @@ def inject_thought(req: InjectionRequest):
 
 
 @router.post("/api/graph/reason")
-def trigger_reasoning(req: ReasoningRequest):
+async def trigger_reasoning(req: ReasoningRequest):
     if req.start_node not in universe.manifold.nodes:
         raise HTTPException(status_code=404, detail="Start node not found")
         
-    result = universe.trigger_reasoning(req.start_node, req.max_depth)
+    result = await universe.trigger_reasoning(req.start_node, req.max_depth)
     return {
         "status": "success",
         "path": result["path"],
@@ -111,11 +111,11 @@ def trigger_reasoning(req: ReasoningRequest):
 
 
 @router.post("/api/graph/predict")
-def trigger_prediction(req: ReasoningRequest):
+async def trigger_prediction(req: ReasoningRequest):
     if req.start_node not in universe.manifold.nodes:
         raise HTTPException(status_code=404, detail="Start node not found")
         
-    futures = universe.trigger_prediction(req.start_node)
+    futures = await universe.trigger_prediction(req.start_node)
     return {
         "status": "success",
         "branches": futures,

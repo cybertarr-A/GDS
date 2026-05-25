@@ -40,38 +40,39 @@ app.include_router(core_router)
 app.include_router(graph_router)
 app.include_router(ws_router)
 
-main_loop = None
+orchestrator = None
 
 
 @app.on_event("startup")
 def startup_event():
-    global main_loop
-    main_loop = asyncio.get_event_loop()
+    global orchestrator
 
     # 1. Initialize universe graph and embeddings
     print("[INFO] Initializing Living Intelligence Universe...")
     universe.initialize(training_data)
 
-    # 2. Run simulation loop inside background daemon thread
-    def run_simulation():
-        from api.websocket_routes import broadcast_to_all
+    # 2. Re-establish state from SQLite persistent engine if available
+    from core.export_engine import GDSExportEngine
+    loaded = GDSExportEngine.db.load_universe(universe.manifold, universe.temporal_engine)
+    if loaded:
+        print("[INFO] Loaded persistent GDS Universe state from SQLite.")
+    else:
+        print("[INFO] No persistent state detected. Initialized fresh baseline coordinates.")
 
-        def sync_broadcast(payload):
-            if main_loop and main_loop.is_running():
-                asyncio.run_coroutine_threadsafe(broadcast_to_all(payload), main_loop)
+    # 3. Start simulation task using pure async orchestrator
+    from core.orchestrator import GDSOrchestrator
+    from api.websocket_routes import broadcast_to_all
 
-        # Run continuous background drift & thought synthesis
-        universe.run_simulation_loop(interval_seconds=4.0, broadcast_callback=sync_broadcast)
-
-    sim_thread = threading.Thread(target=run_simulation, daemon=True)
-    sim_thread.start()
-    print("[INFO] GDS Simulation Background Loop Started.")
+    orchestrator = GDSOrchestrator(universe)
+    orchestrator.start(interval_seconds=4.0, broadcast_callback=broadcast_to_all)
 
 
 @app.on_event("shutdown")
 def shutdown_event():
+    global orchestrator
     print("[INFO] Stopping simulation loops...")
-    universe.is_running = False
+    if orchestrator:
+        orchestrator.stop()
 
 
 # ==========================================
@@ -88,32 +89,35 @@ def run_legacy_cli():
     print(f"[INFO] Embedding Dimensions: {universe.embedding_engine.embedding_dimension()}")
     print("[INFO] Knowledge Loaded")
 
-    # Reasoning Walk
-    print("\n=== REASONING ===")
-    reasoning_result = universe.trigger_reasoning(start_node_id=0, max_depth=5)
-    for step in reasoning_result["path"]:
-        print(f"\nNode {step['id']}")
-        print(step["content"])
+    async def run_async_steps():
+        # Reasoning Walk
+        print("\n=== REASONING ===")
+        reasoning_result = await universe.trigger_reasoning(start_node_id=0, max_depth=5)
+        for step in reasoning_result["path"]:
+            print(f"\nNode {step['id']}")
+            print(step["content"])
 
-    print(f"\nTotal Energy: {reasoning_result['total_energy']:.4f}")
-    print(f"Confidence: {reasoning_result['confidence']:.4f}")
+        print(f"\nTotal Energy: {reasoning_result['total_energy']:.4f}")
+        print(f"Confidence: {reasoning_result['confidence']:.4f}")
 
-    # Memory Recall
-    print("\n=== MEMORY RECALL ===")
-    query = "Deep learning representation"
-    query_vector = universe.embedding_engine.encode(query)[0]
-    recalled = universe.memory_engine.recall(query_vector, top_k=3)
-    for item in recalled:
-        print(f"\nMemory {item['id']} (score={item['score']:.4f})")
-        print(item["content"])
+        # Memory Recall
+        print("\n=== MEMORY RECALL ===")
+        query = "Deep learning representation"
+        query_vector = universe.embedding_engine.encode(query)[0]
+        recalled = universe.memory_engine.recall(query_vector, top_k=3)
+        for item in recalled:
+            print(f"\nMemory {item['id']} (score={item['score']:.4f})")
+            print(item["content"])
 
-    # Prediction
-    print("\n=== PREDICTION ===")
-    futures = universe.trigger_prediction(start_node_id=0)
-    if futures:
-        print("\nAlternate predicted paths:")
-        for idx, fut in enumerate(futures):
-            print(f"Track {idx} (confidence={fut['confidence']:.2f}): {' -> '.join(map(str, fut['path']))}")
+        # Prediction
+        print("\n=== PREDICTION ===")
+        futures = await universe.trigger_prediction(start_node_id=0)
+        if futures:
+            print("\nAlternate predicted paths:")
+            for idx, fut in enumerate(futures):
+                print(f"Track {idx} (confidence={fut['confidence']:.2f}): {' -> '.join(map(str, fut['path']))}")
+
+    asyncio.run(run_async_steps())
 
     print("\n" + "=" * 50)
     print("GDS OFFLINE EXECUTION COMPLETE")
