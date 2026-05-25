@@ -1,0 +1,4087 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "content": "Artificial intelligence learns patterns",
+            "energy": 0.5,
+            "importance": 0.5,
+            "cluster": 1,
+            "vector": [
+                0.34085568775433567,
+                0.34085568775433567,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.34085568775433567,
+                0.0,
+                0.40356294440166224,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.40356294440166224,
+                0.40356294440166224,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.40356294440166224,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "id": 1,
+            "content": "Machine learning discovers relationships",
+            "energy": 0.55,
+            "importance": 0.5700000000000001,
+            "cluster": 2,
+            "vector": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.38594863782027555,
+                0.38594863782027555,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.3259783639876158,
+                0.38594863782027555,
+                0.0,
+                0.0,
+                0.0,
+                0.38594863782027555,
+                0.38594863782027555,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.38594863782027555,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "id": 2,
+            "content": "Artificial intelligence builds models",
+            "energy": 0.6,
+            "importance": 0.64,
+            "cluster": 1,
+            "vector": [
+                0.34085568775433567,
+                0.34085568775433567,
+                0.40356294440166224,
+                0.40356294440166224,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.34085568775433567,
+                0.40356294440166224,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.40356294440166224,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "id": 3,
+            "content": "Geometry represents knowledge",
+            "energy": 0.65,
+            "importance": 0.71,
+            "cluster": 2,
+            "vector": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.4606106279676078,
+                0.4606106279676078,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.3890390695202013,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.4606106279676078,
+                0.4606106279676078
+            ]
+        },
+        {
+            "id": 4,
+            "content": "Knowledge creates reasoning",
+            "energy": 0.7,
+            "importance": 0.78,
+            "cluster": 0,
+            "vector": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.42411161003575265,
+                0.0,
+                0.5021354674424993,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.42411161003575265,
+                0.5021354674424993,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.36875280221087015,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "id": 5,
+            "content": "Reasoning creates predictions",
+            "energy": 0.75,
+            "importance": 0.8500000000000001,
+            "cluster": 0,
+            "vector": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.40957006899925413,
+                0.4849187175754514,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.4849187175754514,
+                0.35610935204636945,
+                0.4849187175754514,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "id": 6,
+            "content": "Deep learning improves pattern recognition",
+            "energy": 0.8,
+            "importance": 0.92,
+            "cluster": 2,
+            "vector": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.3387714251337661,
+                0.3387714251337661,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.3387714251337661,
+                0.3387714251337661,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.28613173906908057,
+                0.0,
+                0.3387714251337661,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.3387714251337661,
+                0.3387714251337661,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.3387714251337661,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "id": 7,
+            "content": "Neural networks discover representations",
+            "energy": 0.8500000000000001,
+            "importance": 0.99,
+            "cluster": 2,
+            "vector": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.3779644730092272,
+                0.3779644730092272,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.3779644730092272,
+                0.3779644730092272,
+                0.3779644730092272,
+                0.3779644730092272,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.3779644730092272,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "id": 8,
+            "content": "Reasoning evolves through memory",
+            "energy": 0.9,
+            "importance": 0.56,
+            "cluster": 0,
+            "vector": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.4693595399726218,
+                0.4693595399726218,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.4693595399726218,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.3446831718357532,
+                0.0,
+                0.4693595399726218,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "id": 9,
+            "content": "Integrating reasoning creates predictions and knowledge creates reasoning forms an emergent intelligence framework",
+            "energy": 0.725,
+            "importance": 0.915,
+            "cluster": 0,
+            "vector": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.499487566134181,
+                0.2956891730473493,
+                0.2956891730473493,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.2497437830670905,
+                0.0,
+                0.0,
+                0.2497437830670905,
+                0.2956891730473493,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.2956891730473493,
+                0.43429002018110174,
+                0.2956891730473493,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "id": 10,
+            "content": "Synthesis shows artificial intelligence learns patterns which leads to artificial intelligence builds models",
+            "energy": 0.55,
+            "importance": 0.67,
+            "cluster": 1,
+            "vector": [
+                0.415099653441821,
+                0.415099653441821,
+                0.24573279012411028,
+                0.24573279012411028,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.415099653441821,
+                0.24573279012411028,
+                0.24573279012411028,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.24573279012411028,
+                0.24573279012411028,
+                0.0,
+                0.0,
+                0.0,
+                0.24573279012411028,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.24573279012411028,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "id": 11,
+            "content": "Synthesized: reasoning evolves through memory correlates with reasoning creates predictions",
+            "energy": 0.825,
+            "importance": 0.805,
+            "cluster": 0,
+            "vector": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.26883646989367094,
+                0.31829434347310126,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.31829434347310126,
+                0.31829434347310126,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.31829434347310126,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.31829434347310126,
+                0.46749110028566476,
+                0.31829434347310126,
+                0.31829434347310126,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "id": 12,
+            "content": "Synthesized: artificial intelligence learns patterns which leads to artificial intelligence builds models correlates with artificial intelligence builds models",
+            "energy": 0.575,
+            "importance": 0.755,
+            "cluster": 1,
+            "vector": [
+                0.40438868086839846,
+                0.40438868086839846,
+                0.3191894059509337,
+                0.3191894059509337,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.40438868086839846,
+                0.3191894059509337,
+                0.15959470297546685,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.15959470297546685,
+                0.15959470297546685,
+                0.0,
+                0.0,
+                0.0,
+                0.3191894059509337,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.15959470297546685,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "id": 13,
+            "content": "Integrating artificial intelligence learns patterns which leads to artificial intelligence builds models correlates with artificial intelligence builds models and artificial intelligence learns patterns which leads to artificial intelligence builds models forms an emergent intelligence framework",
+            "energy": 0.5625,
+            "importance": 0.8125,
+            "cluster": 1,
+            "vector": [
+                0.39665949352192603,
+                0.39665949352192603,
+                0.281779789303594,
+                0.281779789303594,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.47599139222631126,
+                0.281779789303594,
+                0.18785319286906266,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.18785319286906266,
+                0.18785319286906266,
+                0.0,
+                0.0,
+                0.0,
+                0.281779789303594,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.18785319286906266,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "id": 14,
+            "content": "Emergent manifold: reasoning evolves through memory correlates with reasoning creates predictions directly shapes the evolution of reasoning creates predictions",
+            "energy": 0.7875,
+            "importance": 0.9275000000000001,
+            "cluster": 0,
+            "vector": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.34693590505607635,
+                0.41076173991849363,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.20538086995924681,
+                0.20538086995924681,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.20538086995924681,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.41076173991849363,
+                0.45247613181188695,
+                0.41076173991849363,
+                0.20538086995924681,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "id": 15,
+            "content": "Emergent manifold: integrating reasoning creates predictions and knowledge creates reasoning forms an emergent intelligence framework directly shapes the evolution of reasoning creates predictions",
+            "energy": 0.7375,
+            "importance": 0.9825,
+            "cluster": 0,
+            "vector": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.49036360057573297,
+                0.38705056242329783,
+                0.19352528121164891,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.1634545335252443,
+                0.0,
+                0.0,
+                0.1634545335252443,
+                0.19352528121164891,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.38705056242329783,
+                0.4263569955070789,
+                0.38705056242329783,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "id": 16,
+            "content": "Synthesis shows integrating artificial intelligence learns patterns which leads to artificial intelligence builds models correlates with artificial intelligence builds models and artificial intelligence learns patterns which leads to artificial intelligence builds models forms an emergent intelligence framework which leads to artificial intelligence learns patterns which leads to artificial intelligence builds models correlates with artificial intelligence builds models",
+            "energy": 0.56875,
+            "importance": 0.8837499999999999,
+            "cluster": 1,
+            "vector": [
+                0.4001787254746947,
+                0.4001787254746947,
+                0.29612477974818907,
+                0.29612477974818907,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.4502010661590315,
+                0.29612477974818907,
+                0.17767486784891345,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.17767486784891345,
+                0.17767486784891345,
+                0.0,
+                0.0,
+                0.0,
+                0.29612477974818907,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.17767486784891345,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "id": 17,
+            "content": "Synthesized: artificial intelligence learns patterns which leads to artificial intelligence builds models correlates with artificial intelligence learns patterns",
+            "energy": 0.525,
+            "importance": 0.6849999999999999,
+            "cluster": 1,
+            "vector": [
+                0.40438868086839846,
+                0.40438868086839846,
+                0.15959470297546685,
+                0.15959470297546685,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.40438868086839846,
+                0.15959470297546685,
+                0.3191894059509337,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.3191894059509337,
+                0.3191894059509337,
+                0.0,
+                0.0,
+                0.0,
+                0.15959470297546685,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.3191894059509337,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "id": 18,
+            "content": "Integrating artificial intelligence learns patterns which leads to artificial intelligence builds models and integrating artificial intelligence learns patterns which leads to artificial intelligence builds models correlates with artificial intelligence builds models and artificial intelligence learns patterns which leads to artificial intelligence builds models forms an emergent intelligence framework which leads to artificial intelligence learns patterns which leads to artificial intelligence builds models correlates with artificial intelligence builds models forms an emergent intelligence framework",
+            "energy": 0.559375,
+            "importance": 0.876875,
+            "cluster": 1,
+            "vector": [
+                0.39665949352192603,
+                0.39665949352192603,
+                0.281779789303594,
+                0.281779789303594,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.47599139222631126,
+                0.281779789303594,
+                0.18785319286906266,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.18785319286906266,
+                0.18785319286906266,
+                0.0,
+                0.0,
+                0.0,
+                0.281779789303594,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.18785319286906266,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "id": 19,
+            "content": "Synthesized: artificial intelligence learns patterns correlates with artificial intelligence learns patterns which leads to artificial intelligence builds models",
+            "energy": 0.525,
+            "importance": 0.6849999999999999,
+            "cluster": 1,
+            "vector": [
+                0.40438868086839846,
+                0.40438868086839846,
+                0.15959470297546685,
+                0.15959470297546685,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.40438868086839846,
+                0.15959470297546685,
+                0.3191894059509337,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.3191894059509337,
+                0.3191894059509337,
+                0.0,
+                0.0,
+                0.0,
+                0.15959470297546685,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.3191894059509337,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "id": 20,
+            "content": "Synthesis shows integrating artificial intelligence learns patterns which leads to artificial intelligence builds models correlates with artificial intelligence builds models and artificial intelligence learns patterns which leads to artificial intelligence builds models forms an emergent intelligence framework which leads to integrating artificial intelligence learns patterns which leads to artificial intelligence builds models and integrating artificial intelligence learns patterns which leads to artificial intelligence builds models correlates with artificial intelligence builds models and artificial intelligence learns patterns which leads to artificial intelligence builds models forms an emergent intelligence framework which leads to artificial intelligence learns patterns which leads to artificial intelligence builds models correlates with artificial intelligence builds models forms an emergent intelligence framework",
+            "energy": 0.5609375,
+            "importance": 0.9446875,
+            "cluster": 1,
+            "vector": [
+                0.3966594935219261,
+                0.3966594935219261,
+                0.281779789303594,
+                0.281779789303594,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.47599139222631126,
+                0.281779789303594,
+                0.18785319286906266,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.18785319286906266,
+                0.18785319286906266,
+                0.0,
+                0.0,
+                0.0,
+                0.281779789303594,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.18785319286906266,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "id": 21,
+            "content": "Synthesis shows artificial intelligence builds models which leads to integrating artificial intelligence learns patterns which leads to artificial intelligence builds models correlates with artificial intelligence builds models and artificial intelligence learns patterns which leads to artificial intelligence builds models forms an emergent intelligence framework",
+            "energy": 0.58125,
+            "importance": 0.82625,
+            "cluster": 1,
+            "vector": [
+                0.3929526580349873,
+                0.3929526580349873,
+                0.3101627998481142,
+                0.3101627998481142,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.4584447677074852,
+                0.3101627998481142,
+                0.1550813999240571,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.1550813999240571,
+                0.1550813999240571,
+                0.0,
+                0.0,
+                0.0,
+                0.3101627998481142,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.1550813999240571,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "id": 22,
+            "content": "Emergent manifold: artificial intelligence learns patterns directly shapes the evolution of artificial intelligence builds models",
+            "energy": 0.55,
+            "importance": 0.67,
+            "cluster": 1,
+            "vector": [
+                0.415099653441821,
+                0.415099653441821,
+                0.24573279012411028,
+                0.24573279012411028,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.415099653441821,
+                0.24573279012411028,
+                0.24573279012411028,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.24573279012411028,
+                0.24573279012411028,
+                0.0,
+                0.0,
+                0.0,
+                0.24573279012411028,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.24573279012411028,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "id": 23,
+            "content": "Integrating integrating artificial intelligence learns patterns which leads to artificial intelligence builds models correlates with artificial intelligence builds models and artificial intelligence learns patterns which leads to artificial intelligence builds models forms an emergent intelligence framework and integrating artificial intelligence learns patterns which leads to artificial intelligence builds models and integrating artificial intelligence learns patterns which leads to artificial intelligence builds models correlates with artificial intelligence builds models and artificial intelligence learns patterns which leads to artificial intelligence builds models forms an emergent intelligence framework which leads to artificial intelligence learns patterns which leads to artificial intelligence builds models correlates with artificial intelligence builds models forms an emergent intelligence framework forms an emergent intelligence framework",
+            "energy": 0.5609375,
+            "importance": 0.9446875,
+            "cluster": 1,
+            "vector": [
+                0.39162548947744347,
+                0.39162548947744347,
+                0.2782037231254897,
+                0.2782037231254897,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.4960589533380951,
+                0.2782037231254897,
+                0.18546914875032644,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.18546914875032644,
+                0.18546914875032644,
+                0.0,
+                0.0,
+                0.0,
+                0.2782037231254897,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.18546914875032644,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "id": 24,
+            "content": "Emergent manifold: artificial intelligence builds models directly shapes the evolution of integrating artificial intelligence learns patterns which leads to artificial intelligence builds models correlates with artificial intelligence builds models and artificial intelligence learns patterns which leads to artificial intelligence builds models forms an emergent intelligence framework which leads to artificial intelligence learns patterns which leads to artificial intelligence builds models correlates with artificial intelligence builds models",
+            "energy": 0.584375,
+            "importance": 0.861875,
+            "cluster": 1,
+            "vector": [
+                0.39684895248349306,
+                0.39684895248349306,
+                0.31323819727951063,
+                0.31323819727951063,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.4409432805372145,
+                0.31323819727951063,
+                0.15661909863975532,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.15661909863975532,
+                0.15661909863975532,
+                0.0,
+                0.0,
+                0.0,
+                0.31323819727951063,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.15661909863975532,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "id": 25,
+            "content": "Emergent manifold: integrating artificial intelligence learns patterns which leads to artificial intelligence builds models correlates with artificial intelligence builds models and artificial intelligence learns patterns which leads to artificial intelligence builds models forms an emergent intelligence framework directly shapes the evolution of integrating artificial intelligence learns patterns which leads to artificial intelligence builds models correlates with artificial intelligence builds models and artificial intelligence learns patterns which leads to artificial intelligence builds models forms an emergent intelligence framework which leads to artificial intelligence learns patterns which leads to artificial intelligence builds models correlates with artificial intelligence builds models",
+            "energy": 0.565625,
+            "importance": 0.948125,
+            "cluster": 1,
+            "vector": [
+                0.3989089940590756,
+                0.3989089940590756,
+                0.2906438914213538,
+                0.2906438914213538,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.4602796085297026,
+                0.2906438914213538,
+                0.1816524321383461,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.1816524321383461,
+                0.1816524321383461,
+                0.0,
+                0.0,
+                0.0,
+                0.2906438914213538,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.1816524321383461,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "id": 26,
+            "content": "Synthesis shows artificial intelligence builds models which leads to integrating artificial intelligence learns patterns which leads to artificial intelligence builds models correlates with artificial intelligence builds models and artificial intelligence learns patterns which leads to artificial intelligence builds models forms an emergent intelligence framework which leads to integrating artificial intelligence learns patterns which leads to artificial intelligence builds models correlates with artificial intelligence builds models and artificial intelligence learns patterns which leads to artificial intelligence builds models forms an emergent intelligence framework which leads to artificial intelligence learns patterns which leads to artificial intelligence builds models correlates with artificial intelligence builds models",
+            "energy": 0.575,
+            "importance": 0.955,
+            "cluster": 1,
+            "vector": [
+                0.39719597824511116,
+                0.39719597824511116,
+                0.3023152483157149,
+                0.3023152483157149,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.4539382608515556,
+                0.3023152483157149,
+                0.1679529157309527,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.1679529157309527,
+                0.1679529157309527,
+                0.0,
+                0.0,
+                0.0,
+                0.3023152483157149,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.1679529157309527,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "id": 27,
+            "content": "Emergent manifold: artificial intelligence learns patterns which leads to artificial intelligence builds models correlates with artificial intelligence builds models directly shapes the evolution of artificial intelligence builds models which leads to integrating artificial intelligence learns patterns which leads to artificial intelligence builds models correlates with artificial intelligence builds models and artificial intelligence learns patterns which leads to artificial intelligence builds models forms an emergent intelligence framework which leads to integrating artificial intelligence learns patterns which leads to artificial intelligence builds models correlates with artificial intelligence builds models and artificial intelligence learns patterns which leads to artificial intelligence builds models forms an emergent intelligence framework which leads to artificial intelligence learns patterns which leads to artificial intelligence builds models correlates with artificial intelligence builds models",
+            "energy": 0.575,
+            "importance": 0.955,
+            "cluster": 1,
+            "vector": [
+                0.3985604878819801,
+                0.3985604878819801,
+                0.3053365134888783,
+                0.3053365134888783,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.445449957044566,
+                0.3053365134888783,
+                0.1665471891757518,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.1665471891757518,
+                0.1665471891757518,
+                0.0,
+                0.0,
+                0.0,
+                0.3053365134888783,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.1665471891757518,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "id": 28,
+            "content": "Emergent manifold: emergent manifold: artificial intelligence learns patterns directly shapes the evolution of artificial intelligence builds models directly shapes the evolution of artificial intelligence builds models which leads to integrating artificial intelligence learns patterns which leads to artificial intelligence builds models correlates with artificial intelligence builds models and artificial intelligence learns patterns which leads to artificial intelligence builds models forms an emergent intelligence framework which leads to integrating artificial intelligence learns patterns which leads to artificial intelligence builds models correlates with artificial intelligence builds models and artificial intelligence learns patterns which leads to artificial intelligence builds models forms an emergent intelligence framework which leads to artificial intelligence learns patterns which leads to artificial intelligence builds models correlates with artificial intelligence builds models",
+            "energy": 0.5625,
+            "importance": 0.9125,
+            "cluster": 1,
+            "vector": [
+                0.4001787254746947,
+                0.4001787254746947,
+                0.29612477974818907,
+                0.29612477974818907,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.4502010661590315,
+                0.29612477974818907,
+                0.17767486784891345,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.17767486784891345,
+                0.17767486784891345,
+                0.0,
+                0.0,
+                0.0,
+                0.29612477974818907,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.17767486784891345,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "id": 29,
+            "content": "Synthesized: emergent manifold: integrating artificial intelligence learns patterns which leads to artificial intelligence builds models correlates with artificial intelligence builds models and artificial intelligence learns patterns which leads to artificial intelligence builds models forms an emergent intelligence framework directly shapes the evolution of integrating artificial intelligence learns patterns which leads to artificial intelligence builds models correlates with artificial intelligence builds models and artificial intelligence learns patterns which leads to artificial intelligence builds models forms an emergent intelligence framework which leads to artificial intelligence learns patterns which leads to artificial intelligence builds models correlates with artificial intelligence builds models correlates with emergent manifold: emergent manifold: artificial intelligence learns patterns directly shapes the evolution of artificial intelligence builds models directly shapes the evolution of artificial intelligence builds models which leads to integrating artificial intelligence learns patterns which leads to artificial intelligence builds models correlates with artificial intelligence builds models and artificial intelligence learns patterns which leads to artificial intelligence builds models forms an emergent intelligence framework which leads to integrating artificial intelligence learns patterns which leads to artificial intelligence builds models correlates with artificial intelligence builds models and artificial intelligence learns patterns which leads to artificial intelligence builds models forms an emergent intelligence framework which leads to artificial intelligence learns patterns which leads to artificial intelligence builds models correlates with artificial intelligence builds models",
+            "energy": 0.5640625,
+            "importance": 1.0303125,
+            "cluster": 1,
+            "vector": [
+                0.3996227869006832,
+                0.3996227869006832,
+                0.293673992862592,
+                0.293673992862592,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.45474317130077735,
+                0.293673992862592,
+                0.1794674400826951,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.1794674400826951,
+                0.1794674400826951,
+                0.0,
+                0.0,
+                0.0,
+                0.293673992862592,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.1794674400826951,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    ],
+    "edges": [
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 0.09003459530019509
+        },
+        {
+            "source": 0,
+            "target": 9,
+            "weight": 0.02198934548647971
+        },
+        {
+            "source": 0,
+            "target": 10,
+            "weight": 0.21211200341783046
+        },
+        {
+            "source": 0,
+            "target": 12,
+            "weight": 0.1733646589246053
+        },
+        {
+            "source": 0,
+            "target": 13,
+            "weight": 0.19009134385432624
+        },
+        {
+            "source": 0,
+            "target": 15,
+            "weight": 0.014391782509566717
+        },
+        {
+            "source": 0,
+            "target": 16,
+            "weight": 0.18419609858257172
+        },
+        {
+            "source": 0,
+            "target": 17,
+            "weight": 0.2399129362132176
+        },
+        {
+            "source": 0,
+            "target": 18,
+            "weight": 0.19009134385432624
+        },
+        {
+            "source": 0,
+            "target": 19,
+            "weight": 0.2399129362132176
+        },
+        {
+            "source": 0,
+            "target": 20,
+            "weight": 0.19009134385432624
+        },
+        {
+            "source": 0,
+            "target": 21,
+            "weight": 0.1742283688787421
+        },
+        {
+            "source": 0,
+            "target": 22,
+            "weight": 0.21211200341783046
+        },
+        {
+            "source": 0,
+            "target": 23,
+            "weight": 0.1899776748324697
+        },
+        {
+            "source": 0,
+            "target": 24,
+            "weight": 0.1740147177180212
+        },
+        {
+            "source": 0,
+            "target": 25,
+            "weight": 0.1865184732578991
+        },
+        {
+            "source": 0,
+            "target": 26,
+            "weight": 0.17994601337866523
+        },
+        {
+            "source": 0,
+            "target": 27,
+            "weight": 0.178852758018108
+        },
+        {
+            "source": 0,
+            "target": 28,
+            "weight": 0.18419609858257172
+        },
+        {
+            "source": 0,
+            "target": 29,
+            "weight": 0.1852455941298445
+        },
+        {
+            "source": 1,
+            "target": 6,
+            "weight": 0.024093610302154362
+        },
+        {
+            "source": 2,
+            "target": 0,
+            "weight": 0.09003459530019509
+        },
+        {
+            "source": 2,
+            "target": 9,
+            "weight": 0.02198934548647971
+        },
+        {
+            "source": 2,
+            "target": 10,
+            "weight": 0.21211200341783046
+        },
+        {
+            "source": 2,
+            "target": 12,
+            "weight": 0.23991293621321766
+        },
+        {
+            "source": 2,
+            "target": 13,
+            "weight": 0.22925713737857376
+        },
+        {
+            "source": 2,
+            "target": 15,
+            "weight": 0.014391782509566717
+        },
+        {
+            "source": 2,
+            "target": 16,
+            "weight": 0.2335876976452073
+        },
+        {
+            "source": 2,
+            "target": 17,
+            "weight": 0.1733646589246053
+        },
+        {
+            "source": 2,
+            "target": 18,
+            "weight": 0.22925713737857376
+        },
+        {
+            "source": 2,
+            "target": 19,
+            "weight": 0.1733646589246053
+        },
+        {
+            "source": 2,
+            "target": 20,
+            "weight": 0.22925713737857376
+        },
+        {
+            "source": 2,
+            "target": 21,
+            "weight": 0.23889467554205776
+        },
+        {
+            "source": 2,
+            "target": 22,
+            "weight": 0.21211200341783046
+        },
+        {
+            "source": 2,
+            "target": 23,
+            "weight": 0.22864641542787933
+        },
+        {
+            "source": 2,
+            "target": 24,
+            "weight": 0.23932221859775377
+        },
+        {
+            "source": 2,
+            "target": 25,
+            "weight": 0.23196605841723267
+        },
+        {
+            "source": 2,
+            "target": 26,
+            "weight": 0.23597282128199537
+        },
+        {
+            "source": 2,
+            "target": 27,
+            "weight": 0.2367255461927184
+        },
+        {
+            "source": 2,
+            "target": 28,
+            "weight": 0.2335876976452073
+        },
+        {
+            "source": 2,
+            "target": 29,
+            "weight": 0.23286778459653842
+        },
+        {
+            "source": 3,
+            "target": 4,
+            "weight": 0.04262068747647461
+        },
+        {
+            "source": 3,
+            "target": 9,
+            "weight": 0.02509776076726035
+        },
+        {
+            "source": 3,
+            "target": 15,
+            "weight": 0.016426205803243853
+        },
+        {
+            "source": 4,
+            "target": 3,
+            "weight": 0.04262068747647461
+        },
+        {
+            "source": 4,
+            "target": 5,
+            "weight": 0.07879071144734678
+        },
+        {
+            "source": 4,
+            "target": 8,
+            "weight": 0.03283238875381013
+        },
+        {
+            "source": 4,
+            "target": 9,
+            "weight": 0.2001556000295506
+        },
+        {
+            "source": 4,
+            "target": 11,
+            "weight": 0.07398235543273977
+        },
+        {
+            "source": 4,
+            "target": 14,
+            "weight": 0.08110820802736765
+        },
+        {
+            "source": 4,
+            "target": 15,
+            "weight": 0.1624440521805791
+        },
+        {
+            "source": 5,
+            "target": 4,
+            "weight": 0.07879071144734678
+        },
+        {
+            "source": 5,
+            "target": 8,
+            "weight": 0.03170666260745547
+        },
+        {
+            "source": 5,
+            "target": 9,
+            "weight": 0.20390892601321425
+        },
+        {
+            "source": 5,
+            "target": 11,
+            "weight": 0.19105536099746492
+        },
+        {
+            "source": 5,
+            "target": 14,
+            "weight": 0.2326845762707645
+        },
+        {
+            "source": 5,
+            "target": 15,
+            "weight": 0.23654596012067733
+        },
+        {
+            "source": 6,
+            "target": 1,
+            "weight": 0.024093610302154362
+        },
+        {
+            "source": 8,
+            "target": 4,
+            "weight": 0.03283238875381013
+        },
+        {
+            "source": 8,
+            "target": 5,
+            "weight": 0.03170666260745547
+        },
+        {
+            "source": 8,
+            "target": 9,
+            "weight": 0.03866758079937827
+        },
+        {
+            "source": 8,
+            "target": 11,
+            "weight": 0.1959861217896382
+        },
+        {
+            "source": 8,
+            "target": 14,
+            "weight": 0.13988986974752798
+        },
+        {
+            "source": 8,
+            "target": 15,
+            "weight": 0.037961253556494996
+        },
+        {
+            "source": 9,
+            "target": 0,
+            "weight": 0.02198934548647971
+        },
+        {
+            "source": 9,
+            "target": 2,
+            "weight": 0.02198934548647971
+        },
+        {
+            "source": 9,
+            "target": 3,
+            "weight": 0.02509776076726035
+        },
+        {
+            "source": 9,
+            "target": 4,
+            "weight": 0.2001556000295506
+        },
+        {
+            "source": 9,
+            "target": 5,
+            "weight": 0.20390892601321425
+        },
+        {
+            "source": 9,
+            "target": 8,
+            "weight": 0.03866758079937827
+        },
+        {
+            "source": 9,
+            "target": 10,
+            "weight": 0.026778986001339204
+        },
+        {
+            "source": 9,
+            "target": 11,
+            "weight": 0.16006543799919098
+        },
+        {
+            "source": 9,
+            "target": 12,
+            "weight": 0.02608799774773274
+        },
+        {
+            "source": 9,
+            "target": 13,
+            "weight": 0.030707245172327917
+        },
+        {
+            "source": 9,
+            "target": 14,
+            "weight": 0.18964586262695385
+        },
+        {
+            "source": 9,
+            "target": 15,
+            "weight": 0.2504409277770414
+        },
+        {
+            "source": 9,
+            "target": 16,
+            "weight": 0.02904345486318361
+        },
+        {
+            "source": 9,
+            "target": 17,
+            "weight": 0.02608799774773274
+        },
+        {
+            "source": 9,
+            "target": 18,
+            "weight": 0.030707245172327917
+        },
+        {
+            "source": 9,
+            "target": 19,
+            "weight": 0.02608799774773274
+        },
+        {
+            "source": 9,
+            "target": 20,
+            "weight": 0.030707245172327917
+        },
+        {
+            "source": 9,
+            "target": 21,
+            "weight": 0.02957527406981227
+        },
+        {
+            "source": 9,
+            "target": 22,
+            "weight": 0.026778986001339204
+        },
+        {
+            "source": 9,
+            "target": 23,
+            "weight": 0.032001847404918765
+        },
+        {
+            "source": 9,
+            "target": 24,
+            "weight": 0.028446214876316715
+        },
+        {
+            "source": 9,
+            "target": 25,
+            "weight": 0.029693643661994385
+        },
+        {
+            "source": 9,
+            "target": 26,
+            "weight": 0.02928454946185547
+        },
+        {
+            "source": 9,
+            "target": 27,
+            "weight": 0.02873695042885759
+        },
+        {
+            "source": 9,
+            "target": 28,
+            "weight": 0.02904345486318361
+        },
+        {
+            "source": 9,
+            "target": 29,
+            "weight": 0.029336475994371995
+        },
+        {
+            "source": 10,
+            "target": 0,
+            "weight": 0.21211200341783046
+        },
+        {
+            "source": 10,
+            "target": 2,
+            "weight": 0.21211200341783046
+        },
+        {
+            "source": 10,
+            "target": 9,
+            "weight": 0.026778986001339204
+        },
+        {
+            "source": 10,
+            "target": 12,
+            "weight": 0.2516481207152709
+        },
+        {
+            "source": 10,
+            "target": 13,
+            "weight": 0.2553447331009319
+        },
+        {
+            "source": 10,
+            "target": 15,
+            "weight": 0.0175265490550853
+        },
+        {
+            "source": 10,
+            "target": 16,
+            "weight": 0.2543919835551481
+        },
+        {
+            "source": 10,
+            "target": 17,
+            "weight": 0.2516481207152709
+        },
+        {
+            "source": 10,
+            "target": 18,
+            "weight": 0.2553447331009319
+        },
+        {
+            "source": 10,
+            "target": 19,
+            "weight": 0.2516481207152709
+        },
+        {
+            "source": 10,
+            "target": 20,
+            "weight": 0.2553447331009319
+        },
+        {
+            "source": 10,
+            "target": 21,
+            "weight": 0.25155401351480433
+        },
+        {
+            "source": 10,
+            "target": 22,
+            "weight": 0.25831348066883436
+        },
+        {
+            "source": 10,
+            "target": 23,
+            "weight": 0.25490364549044875
+        },
+        {
+            "source": 10,
+            "target": 24,
+            "weight": 0.2516842540457209
+        },
+        {
+            "source": 10,
+            "target": 25,
+            "weight": 0.2548186671221248
+        },
+        {
+            "source": 10,
+            "target": 26,
+            "weight": 0.2532563931454745
+        },
+        {
+            "source": 10,
+            "target": 27,
+            "weight": 0.2530490413587935
+        },
+        {
+            "source": 10,
+            "target": 28,
+            "weight": 0.2543919835551481
+        },
+        {
+            "source": 10,
+            "target": 29,
+            "weight": 0.25459266904444194
+        },
+        {
+            "source": 11,
+            "target": 4,
+            "weight": 0.07398235543273977
+        },
+        {
+            "source": 11,
+            "target": 5,
+            "weight": 0.19105536099746492
+        },
+        {
+            "source": 11,
+            "target": 8,
+            "weight": 0.1959861217896382
+        },
+        {
+            "source": 11,
+            "target": 9,
+            "weight": 0.16006543799919098
+        },
+        {
+            "source": 11,
+            "target": 14,
+            "weight": 0.24759690171825915
+        },
+        {
+            "source": 11,
+            "target": 15,
+            "weight": 0.18100896991863616
+        },
+        {
+            "source": 12,
+            "target": 0,
+            "weight": 0.1733646589246053
+        },
+        {
+            "source": 12,
+            "target": 2,
+            "weight": 0.23991293621321766
+        },
+        {
+            "source": 12,
+            "target": 9,
+            "weight": 0.02608799774773274
+        },
+        {
+            "source": 12,
+            "target": 10,
+            "weight": 0.2516481207152709
+        },
+        {
+            "source": 12,
+            "target": 13,
+            "weight": 0.2565003117518407
+        },
+        {
+            "source": 12,
+            "target": 15,
+            "weight": 0.01707430491399963
+        },
+        {
+            "source": 12,
+            "target": 16,
+            "weight": 0.2575941164406798
+        },
+        {
+            "source": 12,
+            "target": 17,
+            "weight": 0.2319960184371326
+        },
+        {
+            "source": 12,
+            "target": 18,
+            "weight": 0.2565003117518407
+        },
+        {
+            "source": 12,
+            "target": 19,
+            "weight": 0.2319960184371326
+        },
+        {
+            "source": 12,
+            "target": 20,
+            "weight": 0.2565003117518407
+        },
+        {
+            "source": 12,
+            "target": 21,
+            "weight": 0.25784967573396655
+        },
+        {
+            "source": 12,
+            "target": 22,
+            "weight": 0.2516481207152709
+        },
+        {
+            "source": 12,
+            "target": 23,
+            "weight": 0.2559723223678302
+        },
+        {
+            "source": 12,
+            "target": 24,
+            "weight": 0.2581033403031511
+        },
+        {
+            "source": 12,
+            "target": 25,
+            "weight": 0.2572299319500666
+        },
+        {
+            "source": 12,
+            "target": 26,
+            "weight": 0.25779982192518897
+        },
+        {
+            "source": 12,
+            "target": 27,
+            "weight": 0.2579628300840555
+        },
+        {
+            "source": 12,
+            "target": 28,
+            "weight": 0.2575941164406798
+        },
+        {
+            "source": 12,
+            "target": 29,
+            "weight": 0.25743975467614205
+        },
+        {
+            "source": 13,
+            "target": 0,
+            "weight": 0.19009134385432624
+        },
+        {
+            "source": 13,
+            "target": 2,
+            "weight": 0.22925713737857376
+        },
+        {
+            "source": 13,
+            "target": 9,
+            "weight": 0.030707245172327917
+        },
+        {
+            "source": 13,
+            "target": 10,
+            "weight": 0.2553447331009319
+        },
+        {
+            "source": 13,
+            "target": 12,
+            "weight": 0.2565003117518407
+        },
+        {
+            "source": 13,
+            "target": 15,
+            "weight": 0.020097551073532876
+        },
+        {
+            "source": 13,
+            "target": 16,
+            "weight": 0.2580645414993263
+        },
+        {
+            "source": 13,
+            "target": 17,
+            "weight": 0.2410116419643602
+        },
+        {
+            "source": 13,
+            "target": 18,
+            "weight": 0.25831348066883447
+        },
+        {
+            "source": 13,
+            "target": 19,
+            "weight": 0.2410116419643602
+        },
+        {
+            "source": 13,
+            "target": 20,
+            "weight": 0.25831348066883447
+        },
+        {
+            "source": 13,
+            "target": 21,
+            "weight": 0.25729912133209987
+        },
+        {
+            "source": 13,
+            "target": 22,
+            "weight": 0.2553447331009319
+        },
+        {
+            "source": 13,
+            "target": 23,
+            "weight": 0.25824537928185354
+        },
+        {
+            "source": 13,
+            "target": 24,
+            "weight": 0.2571395437714362
+        },
+        {
+            "source": 13,
+            "target": 25,
+            "weight": 0.2582198332995157
+        },
+        {
+            "source": 13,
+            "target": 26,
+            "weight": 0.2578281328012147
+        },
+        {
+            "source": 13,
+            "target": 27,
+            "weight": 0.25767086556779933
+        },
+        {
+            "source": 13,
+            "target": 28,
+            "weight": 0.2580645414993263
+        },
+        {
+            "source": 13,
+            "target": 29,
+            "weight": 0.25814348187813885
+        },
+        {
+            "source": 14,
+            "target": 4,
+            "weight": 0.08110820802736765
+        },
+        {
+            "source": 14,
+            "target": 5,
+            "weight": 0.2326845762707645
+        },
+        {
+            "source": 14,
+            "target": 8,
+            "weight": 0.13988986974752798
+        },
+        {
+            "source": 14,
+            "target": 9,
+            "weight": 0.18964586262695385
+        },
+        {
+            "source": 14,
+            "target": 11,
+            "weight": 0.24759690171825915
+        },
+        {
+            "source": 14,
+            "target": 15,
+            "weight": 0.21698275315833485
+        },
+        {
+            "source": 15,
+            "target": 0,
+            "weight": 0.014391782509566717
+        },
+        {
+            "source": 15,
+            "target": 2,
+            "weight": 0.014391782509566717
+        },
+        {
+            "source": 15,
+            "target": 3,
+            "weight": 0.016426205803243853
+        },
+        {
+            "source": 15,
+            "target": 4,
+            "weight": 0.1624440521805791
+        },
+        {
+            "source": 15,
+            "target": 5,
+            "weight": 0.23654596012067733
+        },
+        {
+            "source": 15,
+            "target": 8,
+            "weight": 0.037961253556494996
+        },
+        {
+            "source": 15,
+            "target": 9,
+            "weight": 0.2504409277770414
+        },
+        {
+            "source": 15,
+            "target": 10,
+            "weight": 0.0175265490550853
+        },
+        {
+            "source": 15,
+            "target": 11,
+            "weight": 0.18100896991863616
+        },
+        {
+            "source": 15,
+            "target": 12,
+            "weight": 0.01707430491399963
+        },
+        {
+            "source": 15,
+            "target": 13,
+            "weight": 0.020097551073532876
+        },
+        {
+            "source": 15,
+            "target": 14,
+            "weight": 0.21698275315833485
+        },
+        {
+            "source": 15,
+            "target": 16,
+            "weight": 0.01900861878650996
+        },
+        {
+            "source": 15,
+            "target": 17,
+            "weight": 0.01707430491399963
+        },
+        {
+            "source": 15,
+            "target": 18,
+            "weight": 0.020097551073532876
+        },
+        {
+            "source": 15,
+            "target": 19,
+            "weight": 0.01707430491399963
+        },
+        {
+            "source": 15,
+            "target": 20,
+            "weight": 0.020097551073532876
+        },
+        {
+            "source": 15,
+            "target": 21,
+            "weight": 0.019356688553339354
+        },
+        {
+            "source": 15,
+            "target": 22,
+            "weight": 0.0175265490550853
+        },
+        {
+            "source": 15,
+            "target": 23,
+            "weight": 0.02094485386293618
+        },
+        {
+            "source": 15,
+            "target": 24,
+            "weight": 0.018617731845273384
+        },
+        {
+            "source": 15,
+            "target": 25,
+            "weight": 0.01943416013736075
+        },
+        {
+            "source": 15,
+            "target": 26,
+            "weight": 0.019166412524866103
+        },
+        {
+            "source": 15,
+            "target": 27,
+            "weight": 0.018808015036855398
+        },
+        {
+            "source": 15,
+            "target": 28,
+            "weight": 0.01900861878650996
+        },
+        {
+            "source": 15,
+            "target": 29,
+            "weight": 0.01920039786394376
+        },
+        {
+            "source": 16,
+            "target": 0,
+            "weight": 0.18419609858257172
+        },
+        {
+            "source": 16,
+            "target": 2,
+            "weight": 0.2335876976452073
+        },
+        {
+            "source": 16,
+            "target": 9,
+            "weight": 0.02904345486318361
+        },
+        {
+            "source": 16,
+            "target": 10,
+            "weight": 0.2543919835551481
+        },
+        {
+            "source": 16,
+            "target": 12,
+            "weight": 0.2575941164406798
+        },
+        {
+            "source": 16,
+            "target": 13,
+            "weight": 0.2580645414993263
+        },
+        {
+            "source": 16,
+            "target": 15,
+            "weight": 0.01900861878650996
+        },
+        {
+            "source": 16,
+            "target": 17,
+            "weight": 0.23806150649411545
+        },
+        {
+            "source": 16,
+            "target": 18,
+            "weight": 0.2580645414993263
+        },
+        {
+            "source": 16,
+            "target": 19,
+            "weight": 0.23806150649411545
+        },
+        {
+            "source": 16,
+            "target": 20,
+            "weight": 0.2580645414993263
+        },
+        {
+            "source": 16,
+            "target": 21,
+            "weight": 0.25792568575795094
+        },
+        {
+            "source": 16,
+            "target": 22,
+            "weight": 0.2543919835551481
+        },
+        {
+            "source": 16,
+            "target": 23,
+            "weight": 0.25782566575424826
+        },
+        {
+            "source": 16,
+            "target": 24,
+            "weight": 0.25791919881468395
+        },
+        {
+            "source": 16,
+            "target": 25,
+            "weight": 0.2582762517459977
+        },
+        {
+            "source": 16,
+            "target": 26,
+            "weight": 0.25824075080315767
+        },
+        {
+            "source": 16,
+            "target": 27,
+            "weight": 0.2582020783941623
+        },
+        {
+            "source": 16,
+            "target": 28,
+            "weight": 0.25831348066883447
+        },
+        {
+            "source": 16,
+            "target": 29,
+            "weight": 0.25830597310514053
+        },
+        {
+            "source": 17,
+            "target": 0,
+            "weight": 0.2399129362132176
+        },
+        {
+            "source": 17,
+            "target": 2,
+            "weight": 0.1733646589246053
+        },
+        {
+            "source": 17,
+            "target": 9,
+            "weight": 0.02608799774773274
+        },
+        {
+            "source": 17,
+            "target": 10,
+            "weight": 0.2516481207152709
+        },
+        {
+            "source": 17,
+            "target": 12,
+            "weight": 0.2319960184371326
+        },
+        {
+            "source": 17,
+            "target": 13,
+            "weight": 0.2410116419643602
+        },
+        {
+            "source": 17,
+            "target": 15,
+            "weight": 0.01707430491399963
+        },
+        {
+            "source": 17,
+            "target": 16,
+            "weight": 0.23806150649411545
+        },
+        {
+            "source": 17,
+            "target": 18,
+            "weight": 0.2410116419643602
+        },
+        {
+            "source": 17,
+            "target": 19,
+            "weight": 0.25831348066883436
+        },
+        {
+            "source": 17,
+            "target": 20,
+            "weight": 0.2410116419643602
+        },
+        {
+            "source": 17,
+            "target": 21,
+            "weight": 0.23227646553808556
+        },
+        {
+            "source": 17,
+            "target": 22,
+            "weight": 0.2516481207152709
+        },
+        {
+            "source": 17,
+            "target": 23,
+            "weight": 0.24068021922662244
+        },
+        {
+            "source": 17,
+            "target": 24,
+            "weight": 0.23227656073986858
+        },
+        {
+            "source": 17,
+            "target": 25,
+            "weight": 0.23925703836537454
+        },
+        {
+            "source": 17,
+            "target": 26,
+            "weight": 0.23564322432366058
+        },
+        {
+            "source": 17,
+            "target": 27,
+            "weight": 0.23507621334380183
+        },
+        {
+            "source": 17,
+            "target": 28,
+            "weight": 0.23806150649411545
+        },
+        {
+            "source": 17,
+            "target": 29,
+            "weight": 0.23860688251083084
+        },
+        {
+            "source": 18,
+            "target": 0,
+            "weight": 0.19009134385432624
+        },
+        {
+            "source": 18,
+            "target": 2,
+            "weight": 0.22925713737857376
+        },
+        {
+            "source": 18,
+            "target": 9,
+            "weight": 0.030707245172327917
+        },
+        {
+            "source": 18,
+            "target": 10,
+            "weight": 0.2553447331009319
+        },
+        {
+            "source": 18,
+            "target": 12,
+            "weight": 0.2565003117518407
+        },
+        {
+            "source": 18,
+            "target": 13,
+            "weight": 0.25831348066883447
+        },
+        {
+            "source": 18,
+            "target": 15,
+            "weight": 0.020097551073532876
+        },
+        {
+            "source": 18,
+            "target": 16,
+            "weight": 0.2580645414993263
+        },
+        {
+            "source": 18,
+            "target": 17,
+            "weight": 0.2410116419643602
+        },
+        {
+            "source": 18,
+            "target": 19,
+            "weight": 0.2410116419643602
+        },
+        {
+            "source": 18,
+            "target": 20,
+            "weight": 0.25831348066883447
+        },
+        {
+            "source": 18,
+            "target": 21,
+            "weight": 0.25729912133209987
+        },
+        {
+            "source": 18,
+            "target": 22,
+            "weight": 0.2553447331009319
+        },
+        {
+            "source": 18,
+            "target": 23,
+            "weight": 0.25824537928185354
+        },
+        {
+            "source": 18,
+            "target": 24,
+            "weight": 0.2571395437714362
+        },
+        {
+            "source": 18,
+            "target": 25,
+            "weight": 0.2582198332995157
+        },
+        {
+            "source": 18,
+            "target": 26,
+            "weight": 0.2578281328012147
+        },
+        {
+            "source": 18,
+            "target": 27,
+            "weight": 0.25767086556779933
+        },
+        {
+            "source": 18,
+            "target": 28,
+            "weight": 0.2580645414993263
+        },
+        {
+            "source": 18,
+            "target": 29,
+            "weight": 0.25814348187813885
+        },
+        {
+            "source": 19,
+            "target": 0,
+            "weight": 0.2399129362132176
+        },
+        {
+            "source": 19,
+            "target": 2,
+            "weight": 0.1733646589246053
+        },
+        {
+            "source": 19,
+            "target": 9,
+            "weight": 0.02608799774773274
+        },
+        {
+            "source": 19,
+            "target": 10,
+            "weight": 0.2516481207152709
+        },
+        {
+            "source": 19,
+            "target": 12,
+            "weight": 0.2319960184371326
+        },
+        {
+            "source": 19,
+            "target": 13,
+            "weight": 0.2410116419643602
+        },
+        {
+            "source": 19,
+            "target": 15,
+            "weight": 0.01707430491399963
+        },
+        {
+            "source": 19,
+            "target": 16,
+            "weight": 0.23806150649411545
+        },
+        {
+            "source": 19,
+            "target": 17,
+            "weight": 0.25831348066883436
+        },
+        {
+            "source": 19,
+            "target": 18,
+            "weight": 0.2410116419643602
+        },
+        {
+            "source": 19,
+            "target": 20,
+            "weight": 0.2410116419643602
+        },
+        {
+            "source": 19,
+            "target": 21,
+            "weight": 0.23227646553808556
+        },
+        {
+            "source": 19,
+            "target": 22,
+            "weight": 0.2516481207152709
+        },
+        {
+            "source": 19,
+            "target": 23,
+            "weight": 0.24068021922662244
+        },
+        {
+            "source": 19,
+            "target": 24,
+            "weight": 0.23227656073986858
+        },
+        {
+            "source": 19,
+            "target": 25,
+            "weight": 0.23925703836537454
+        },
+        {
+            "source": 19,
+            "target": 26,
+            "weight": 0.23564322432366058
+        },
+        {
+            "source": 19,
+            "target": 27,
+            "weight": 0.23507621334380183
+        },
+        {
+            "source": 19,
+            "target": 28,
+            "weight": 0.23806150649411545
+        },
+        {
+            "source": 19,
+            "target": 29,
+            "weight": 0.23860688251083084
+        },
+        {
+            "source": 20,
+            "target": 0,
+            "weight": 0.19009134385432624
+        },
+        {
+            "source": 20,
+            "target": 2,
+            "weight": 0.22925713737857376
+        },
+        {
+            "source": 20,
+            "target": 9,
+            "weight": 0.030707245172327917
+        },
+        {
+            "source": 20,
+            "target": 10,
+            "weight": 0.2553447331009319
+        },
+        {
+            "source": 20,
+            "target": 12,
+            "weight": 0.2565003117518407
+        },
+        {
+            "source": 20,
+            "target": 13,
+            "weight": 0.25831348066883447
+        },
+        {
+            "source": 20,
+            "target": 15,
+            "weight": 0.020097551073532876
+        },
+        {
+            "source": 20,
+            "target": 16,
+            "weight": 0.2580645414993263
+        },
+        {
+            "source": 20,
+            "target": 17,
+            "weight": 0.2410116419643602
+        },
+        {
+            "source": 20,
+            "target": 18,
+            "weight": 0.25831348066883447
+        },
+        {
+            "source": 20,
+            "target": 19,
+            "weight": 0.2410116419643602
+        },
+        {
+            "source": 20,
+            "target": 21,
+            "weight": 0.25729912133209987
+        },
+        {
+            "source": 20,
+            "target": 22,
+            "weight": 0.2553447331009319
+        },
+        {
+            "source": 20,
+            "target": 23,
+            "weight": 0.25824537928185354
+        },
+        {
+            "source": 20,
+            "target": 24,
+            "weight": 0.2571395437714362
+        },
+        {
+            "source": 20,
+            "target": 25,
+            "weight": 0.2582198332995157
+        },
+        {
+            "source": 20,
+            "target": 26,
+            "weight": 0.2578281328012147
+        },
+        {
+            "source": 20,
+            "target": 27,
+            "weight": 0.25767086556779933
+        },
+        {
+            "source": 20,
+            "target": 28,
+            "weight": 0.2580645414993263
+        },
+        {
+            "source": 20,
+            "target": 29,
+            "weight": 0.25814348187813885
+        },
+        {
+            "source": 21,
+            "target": 0,
+            "weight": 0.1742283688787421
+        },
+        {
+            "source": 21,
+            "target": 2,
+            "weight": 0.23889467554205776
+        },
+        {
+            "source": 21,
+            "target": 9,
+            "weight": 0.02957527406981227
+        },
+        {
+            "source": 21,
+            "target": 10,
+            "weight": 0.25155401351480433
+        },
+        {
+            "source": 21,
+            "target": 12,
+            "weight": 0.25784967573396655
+        },
+        {
+            "source": 21,
+            "target": 13,
+            "weight": 0.25729912133209987
+        },
+        {
+            "source": 21,
+            "target": 15,
+            "weight": 0.019356688553339354
+        },
+        {
+            "source": 21,
+            "target": 16,
+            "weight": 0.25792568575795094
+        },
+        {
+            "source": 21,
+            "target": 17,
+            "weight": 0.23227646553808556
+        },
+        {
+            "source": 21,
+            "target": 18,
+            "weight": 0.25729912133209987
+        },
+        {
+            "source": 21,
+            "target": 19,
+            "weight": 0.23227646553808556
+        },
+        {
+            "source": 21,
+            "target": 20,
+            "weight": 0.25729912133209987
+        },
+        {
+            "source": 21,
+            "target": 22,
+            "weight": 0.25155401351480433
+        },
+        {
+            "source": 21,
+            "target": 23,
+            "weight": 0.2571255562324611
+        },
+        {
+            "source": 21,
+            "target": 24,
+            "weight": 0.2582638903415709
+        },
+        {
+            "source": 21,
+            "target": 25,
+            "weight": 0.25774230401273174
+        },
+        {
+            "source": 21,
+            "target": 26,
+            "weight": 0.2581887979084616
+        },
+        {
+            "source": 21,
+            "target": 27,
+            "weight": 0.2582035953969307
+        },
+        {
+            "source": 21,
+            "target": 28,
+            "weight": 0.25792568575795094
+        },
+        {
+            "source": 21,
+            "target": 29,
+            "weight": 0.25785253035026123
+        },
+        {
+            "source": 22,
+            "target": 0,
+            "weight": 0.21211200341783046
+        },
+        {
+            "source": 22,
+            "target": 2,
+            "weight": 0.21211200341783046
+        },
+        {
+            "source": 22,
+            "target": 9,
+            "weight": 0.026778986001339204
+        },
+        {
+            "source": 22,
+            "target": 10,
+            "weight": 0.25831348066883436
+        },
+        {
+            "source": 22,
+            "target": 12,
+            "weight": 0.2516481207152709
+        },
+        {
+            "source": 22,
+            "target": 13,
+            "weight": 0.2553447331009319
+        },
+        {
+            "source": 22,
+            "target": 15,
+            "weight": 0.0175265490550853
+        },
+        {
+            "source": 22,
+            "target": 16,
+            "weight": 0.2543919835551481
+        },
+        {
+            "source": 22,
+            "target": 17,
+            "weight": 0.2516481207152709
+        },
+        {
+            "source": 22,
+            "target": 18,
+            "weight": 0.2553447331009319
+        },
+        {
+            "source": 22,
+            "target": 19,
+            "weight": 0.2516481207152709
+        },
+        {
+            "source": 22,
+            "target": 20,
+            "weight": 0.2553447331009319
+        },
+        {
+            "source": 22,
+            "target": 21,
+            "weight": 0.25155401351480433
+        },
+        {
+            "source": 22,
+            "target": 23,
+            "weight": 0.25490364549044875
+        },
+        {
+            "source": 22,
+            "target": 24,
+            "weight": 0.2516842540457209
+        },
+        {
+            "source": 22,
+            "target": 25,
+            "weight": 0.2548186671221248
+        },
+        {
+            "source": 22,
+            "target": 26,
+            "weight": 0.2532563931454745
+        },
+        {
+            "source": 22,
+            "target": 27,
+            "weight": 0.2530490413587935
+        },
+        {
+            "source": 22,
+            "target": 28,
+            "weight": 0.2543919835551481
+        },
+        {
+            "source": 22,
+            "target": 29,
+            "weight": 0.25459266904444194
+        },
+        {
+            "source": 23,
+            "target": 0,
+            "weight": 0.1899776748324697
+        },
+        {
+            "source": 23,
+            "target": 2,
+            "weight": 0.22864641542787933
+        },
+        {
+            "source": 23,
+            "target": 9,
+            "weight": 0.032001847404918765
+        },
+        {
+            "source": 23,
+            "target": 10,
+            "weight": 0.25490364549044875
+        },
+        {
+            "source": 23,
+            "target": 12,
+            "weight": 0.2559723223678302
+        },
+        {
+            "source": 23,
+            "target": 13,
+            "weight": 0.25824537928185354
+        },
+        {
+            "source": 23,
+            "target": 15,
+            "weight": 0.02094485386293618
+        },
+        {
+            "source": 23,
+            "target": 16,
+            "weight": 0.25782566575424826
+        },
+        {
+            "source": 23,
+            "target": 17,
+            "weight": 0.24068021922662244
+        },
+        {
+            "source": 23,
+            "target": 18,
+            "weight": 0.25824537928185354
+        },
+        {
+            "source": 23,
+            "target": 19,
+            "weight": 0.24068021922662244
+        },
+        {
+            "source": 23,
+            "target": 20,
+            "weight": 0.25824537928185354
+        },
+        {
+            "source": 23,
+            "target": 21,
+            "weight": 0.2571255562324611
+        },
+        {
+            "source": 23,
+            "target": 22,
+            "weight": 0.25490364549044875
+        },
+        {
+            "source": 23,
+            "target": 24,
+            "weight": 0.25684997133976883
+        },
+        {
+            "source": 23,
+            "target": 25,
+            "weight": 0.25804695787666393
+        },
+        {
+            "source": 23,
+            "target": 26,
+            "weight": 0.25761746149298087
+        },
+        {
+            "source": 23,
+            "target": 27,
+            "weight": 0.2574049438036523
+        },
+        {
+            "source": 23,
+            "target": 28,
+            "weight": 0.25782566575424826
+        },
+        {
+            "source": 23,
+            "target": 29,
+            "weight": 0.25793423690711303
+        },
+        {
+            "source": 24,
+            "target": 0,
+            "weight": 0.1740147177180212
+        },
+        {
+            "source": 24,
+            "target": 2,
+            "weight": 0.23932221859775377
+        },
+        {
+            "source": 24,
+            "target": 9,
+            "weight": 0.028446214876316715
+        },
+        {
+            "source": 24,
+            "target": 10,
+            "weight": 0.2516842540457209
+        },
+        {
+            "source": 24,
+            "target": 12,
+            "weight": 0.2581033403031511
+        },
+        {
+            "source": 24,
+            "target": 13,
+            "weight": 0.2571395437714362
+        },
+        {
+            "source": 24,
+            "target": 15,
+            "weight": 0.018617731845273384
+        },
+        {
+            "source": 24,
+            "target": 16,
+            "weight": 0.25791919881468395
+        },
+        {
+            "source": 24,
+            "target": 17,
+            "weight": 0.23227656073986858
+        },
+        {
+            "source": 24,
+            "target": 18,
+            "weight": 0.2571395437714362
+        },
+        {
+            "source": 24,
+            "target": 19,
+            "weight": 0.23227656073986858
+        },
+        {
+            "source": 24,
+            "target": 20,
+            "weight": 0.2571395437714362
+        },
+        {
+            "source": 24,
+            "target": 21,
+            "weight": 0.2582638903415709
+        },
+        {
+            "source": 24,
+            "target": 22,
+            "weight": 0.2516842540457209
+        },
+        {
+            "source": 24,
+            "target": 23,
+            "weight": 0.25684997133976883
+        },
+        {
+            "source": 24,
+            "target": 25,
+            "weight": 0.2576766006588194
+        },
+        {
+            "source": 24,
+            "target": 26,
+            "weight": 0.2581636362136721
+        },
+        {
+            "source": 24,
+            "target": 27,
+            "weight": 0.25822692199211505
+        },
+        {
+            "source": 24,
+            "target": 28,
+            "weight": 0.25791919881468395
+        },
+        {
+            "source": 24,
+            "target": 29,
+            "weight": 0.2578194503890024
+        },
+        {
+            "source": 25,
+            "target": 0,
+            "weight": 0.1865184732578991
+        },
+        {
+            "source": 25,
+            "target": 2,
+            "weight": 0.23196605841723267
+        },
+        {
+            "source": 25,
+            "target": 9,
+            "weight": 0.029693643661994385
+        },
+        {
+            "source": 25,
+            "target": 10,
+            "weight": 0.2548186671221248
+        },
+        {
+            "source": 25,
+            "target": 12,
+            "weight": 0.2572299319500666
+        },
+        {
+            "source": 25,
+            "target": 13,
+            "weight": 0.2582198332995157
+        },
+        {
+            "source": 25,
+            "target": 15,
+            "weight": 0.01943416013736075
+        },
+        {
+            "source": 25,
+            "target": 16,
+            "weight": 0.2582762517459977
+        },
+        {
+            "source": 25,
+            "target": 17,
+            "weight": 0.23925703836537454
+        },
+        {
+            "source": 25,
+            "target": 18,
+            "weight": 0.2582198332995157
+        },
+        {
+            "source": 25,
+            "target": 19,
+            "weight": 0.23925703836537454
+        },
+        {
+            "source": 25,
+            "target": 20,
+            "weight": 0.2582198332995157
+        },
+        {
+            "source": 25,
+            "target": 21,
+            "weight": 0.25774230401273174
+        },
+        {
+            "source": 25,
+            "target": 22,
+            "weight": 0.2548186671221248
+        },
+        {
+            "source": 25,
+            "target": 23,
+            "weight": 0.25804695787666393
+        },
+        {
+            "source": 25,
+            "target": 24,
+            "weight": 0.2576766006588194
+        },
+        {
+            "source": 25,
+            "target": 26,
+            "weight": 0.2581401948387417
+        },
+        {
+            "source": 25,
+            "target": 27,
+            "weight": 0.2580556415151326
+        },
+        {
+            "source": 25,
+            "target": 28,
+            "weight": 0.2582762517459977
+        },
+        {
+            "source": 25,
+            "target": 29,
+            "weight": 0.2583021802344536
+        },
+        {
+            "source": 26,
+            "target": 0,
+            "weight": 0.17994601337866523
+        },
+        {
+            "source": 26,
+            "target": 2,
+            "weight": 0.23597282128199537
+        },
+        {
+            "source": 26,
+            "target": 9,
+            "weight": 0.02928454946185547
+        },
+        {
+            "source": 26,
+            "target": 10,
+            "weight": 0.2532563931454745
+        },
+        {
+            "source": 26,
+            "target": 12,
+            "weight": 0.25779982192518897
+        },
+        {
+            "source": 26,
+            "target": 13,
+            "weight": 0.2578281328012147
+        },
+        {
+            "source": 26,
+            "target": 15,
+            "weight": 0.019166412524866103
+        },
+        {
+            "source": 26,
+            "target": 16,
+            "weight": 0.25824075080315767
+        },
+        {
+            "source": 26,
+            "target": 17,
+            "weight": 0.23564322432366058
+        },
+        {
+            "source": 26,
+            "target": 18,
+            "weight": 0.2578281328012147
+        },
+        {
+            "source": 26,
+            "target": 19,
+            "weight": 0.23564322432366058
+        },
+        {
+            "source": 26,
+            "target": 20,
+            "weight": 0.2578281328012147
+        },
+        {
+            "source": 26,
+            "target": 21,
+            "weight": 0.2581887979084616
+        },
+        {
+            "source": 26,
+            "target": 22,
+            "weight": 0.2532563931454745
+        },
+        {
+            "source": 26,
+            "target": 23,
+            "weight": 0.25761746149298087
+        },
+        {
+            "source": 26,
+            "target": 24,
+            "weight": 0.2581636362136721
+        },
+        {
+            "source": 26,
+            "target": 25,
+            "weight": 0.2581401948387417
+        },
+        {
+            "source": 26,
+            "target": 27,
+            "weight": 0.2582979571243865
+        },
+        {
+            "source": 26,
+            "target": 28,
+            "weight": 0.25824075080315767
+        },
+        {
+            "source": 26,
+            "target": 29,
+            "weight": 0.2582048018654567
+        },
+        {
+            "source": 27,
+            "target": 0,
+            "weight": 0.178852758018108
+        },
+        {
+            "source": 27,
+            "target": 2,
+            "weight": 0.2367255461927184
+        },
+        {
+            "source": 27,
+            "target": 9,
+            "weight": 0.02873695042885759
+        },
+        {
+            "source": 27,
+            "target": 10,
+            "weight": 0.2530490413587935
+        },
+        {
+            "source": 27,
+            "target": 12,
+            "weight": 0.2579628300840555
+        },
+        {
+            "source": 27,
+            "target": 13,
+            "weight": 0.25767086556779933
+        },
+        {
+            "source": 27,
+            "target": 15,
+            "weight": 0.018808015036855398
+        },
+        {
+            "source": 27,
+            "target": 16,
+            "weight": 0.2582020783941623
+        },
+        {
+            "source": 27,
+            "target": 17,
+            "weight": 0.23507621334380183
+        },
+        {
+            "source": 27,
+            "target": 18,
+            "weight": 0.25767086556779933
+        },
+        {
+            "source": 27,
+            "target": 19,
+            "weight": 0.23507621334380183
+        },
+        {
+            "source": 27,
+            "target": 20,
+            "weight": 0.25767086556779933
+        },
+        {
+            "source": 27,
+            "target": 21,
+            "weight": 0.2582035953969307
+        },
+        {
+            "source": 27,
+            "target": 22,
+            "weight": 0.2530490413587935
+        },
+        {
+            "source": 27,
+            "target": 23,
+            "weight": 0.2574049438036523
+        },
+        {
+            "source": 27,
+            "target": 24,
+            "weight": 0.25822692199211505
+        },
+        {
+            "source": 27,
+            "target": 25,
+            "weight": 0.2580556415151326
+        },
+        {
+            "source": 27,
+            "target": 26,
+            "weight": 0.2582979571243865
+        },
+        {
+            "source": 27,
+            "target": 28,
+            "weight": 0.2582020783941623
+        },
+        {
+            "source": 27,
+            "target": 29,
+            "weight": 0.25814552396853263
+        },
+        {
+            "source": 28,
+            "target": 0,
+            "weight": 0.18419609858257172
+        },
+        {
+            "source": 28,
+            "target": 2,
+            "weight": 0.2335876976452073
+        },
+        {
+            "source": 28,
+            "target": 9,
+            "weight": 0.02904345486318361
+        },
+        {
+            "source": 28,
+            "target": 10,
+            "weight": 0.2543919835551481
+        },
+        {
+            "source": 28,
+            "target": 12,
+            "weight": 0.2575941164406798
+        },
+        {
+            "source": 28,
+            "target": 13,
+            "weight": 0.2580645414993263
+        },
+        {
+            "source": 28,
+            "target": 15,
+            "weight": 0.01900861878650996
+        },
+        {
+            "source": 28,
+            "target": 16,
+            "weight": 0.25831348066883447
+        },
+        {
+            "source": 28,
+            "target": 17,
+            "weight": 0.23806150649411545
+        },
+        {
+            "source": 28,
+            "target": 18,
+            "weight": 0.2580645414993263
+        },
+        {
+            "source": 28,
+            "target": 19,
+            "weight": 0.23806150649411545
+        },
+        {
+            "source": 28,
+            "target": 20,
+            "weight": 0.2580645414993263
+        },
+        {
+            "source": 28,
+            "target": 21,
+            "weight": 0.25792568575795094
+        },
+        {
+            "source": 28,
+            "target": 22,
+            "weight": 0.2543919835551481
+        },
+        {
+            "source": 28,
+            "target": 23,
+            "weight": 0.25782566575424826
+        },
+        {
+            "source": 28,
+            "target": 24,
+            "weight": 0.25791919881468395
+        },
+        {
+            "source": 28,
+            "target": 25,
+            "weight": 0.2582762517459977
+        },
+        {
+            "source": 28,
+            "target": 26,
+            "weight": 0.25824075080315767
+        },
+        {
+            "source": 28,
+            "target": 27,
+            "weight": 0.2582020783941623
+        },
+        {
+            "source": 28,
+            "target": 29,
+            "weight": 0.25830597310514053
+        },
+        {
+            "source": 29,
+            "target": 0,
+            "weight": 0.1852455941298445
+        },
+        {
+            "source": 29,
+            "target": 2,
+            "weight": 0.23286778459653842
+        },
+        {
+            "source": 29,
+            "target": 9,
+            "weight": 0.029336475994371995
+        },
+        {
+            "source": 29,
+            "target": 10,
+            "weight": 0.25459266904444194
+        },
+        {
+            "source": 29,
+            "target": 12,
+            "weight": 0.25743975467614205
+        },
+        {
+            "source": 29,
+            "target": 13,
+            "weight": 0.25814348187813885
+        },
+        {
+            "source": 29,
+            "target": 15,
+            "weight": 0.01920039786394376
+        },
+        {
+            "source": 29,
+            "target": 16,
+            "weight": 0.25830597310514053
+        },
+        {
+            "source": 29,
+            "target": 17,
+            "weight": 0.23860688251083084
+        },
+        {
+            "source": 29,
+            "target": 18,
+            "weight": 0.25814348187813885
+        },
+        {
+            "source": 29,
+            "target": 19,
+            "weight": 0.23860688251083084
+        },
+        {
+            "source": 29,
+            "target": 20,
+            "weight": 0.25814348187813885
+        },
+        {
+            "source": 29,
+            "target": 21,
+            "weight": 0.25785253035026123
+        },
+        {
+            "source": 29,
+            "target": 22,
+            "weight": 0.25459266904444194
+        },
+        {
+            "source": 29,
+            "target": 23,
+            "weight": 0.25793423690711303
+        },
+        {
+            "source": 29,
+            "target": 24,
+            "weight": 0.2578194503890024
+        },
+        {
+            "source": 29,
+            "target": 25,
+            "weight": 0.2583021802344536
+        },
+        {
+            "source": 29,
+            "target": 26,
+            "weight": 0.2582048018654567
+        },
+        {
+            "source": 29,
+            "target": 27,
+            "weight": 0.25814552396853263
+        },
+        {
+            "source": 29,
+            "target": 28,
+            "weight": 0.25830597310514053
+        }
+    ],
+    "reasoning_path": []
+}

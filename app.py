@@ -1,346 +1,131 @@
-from core.embedding_engine import GDSEmbeddingEngine
-from core.manifold import GDSManifold
-from core.reasoning_engine import GDSReasoningEngine
-from core.memory_engine import GDSMemoryEngine
-from core.prediction_engine import GDSPredictionEngine
-from core.learning_engine import GDSLearningEngine
-from core.temporal_engine import GDSTemporalEngine
+import asyncio
+import threading
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+from api.routes import router as core_router
+from api.graph_routes import router as graph_router
+from api.websocket_routes import router as ws_router
+from core.shared import universe
 
-
+# Default baseline thoughts for initial knowledge synthesis
 training_data = [
-
     "Artificial intelligence learns patterns",
     "Machine learning discovers relationships",
     "Artificial intelligence builds models",
     "Geometry represents knowledge",
     "Knowledge creates reasoning",
-    "Reasoning creates predictions"
-
+    "Reasoning creates predictions",
+    "Deep learning improves pattern recognition",
+    "Neural networks discover representations",
+    "Reasoning evolves through memory"
 ]
 
+app = FastAPI(
+    title="GDS Living Intelligence Universe Backend",
+    description="Geometric Data Synthesis real-time AI and simulation backend.",
+    version="1.0.0"
+)
 
-def main():
+# Enable CORS for Vite visualizer connections
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
+# Mount Routes
+app.include_router(core_router)
+app.include_router(graph_router)
+app.include_router(ws_router)
+
+main_loop = None
+
+
+@app.on_event("startup")
+def startup_event():
+    global main_loop
+    main_loop = asyncio.get_event_loop()
+
+    # 1. Initialize universe graph and embeddings
+    print("[INFO] Initializing Living Intelligence Universe...")
+    universe.initialize(training_data)
+
+    # 2. Run simulation loop inside background daemon thread
+    def run_simulation():
+        from api.websocket_routes import broadcast_to_all
+
+        def sync_broadcast(payload):
+            if main_loop and main_loop.is_running():
+                asyncio.run_coroutine_threadsafe(broadcast_to_all(payload), main_loop)
+
+        # Run continuous background drift & thought synthesis
+        universe.run_simulation_loop(interval_seconds=4.0, broadcast_callback=sync_broadcast)
+
+    sim_thread = threading.Thread(target=run_simulation, daemon=True)
+    sim_thread.start()
+    print("[INFO] GDS Simulation Background Loop Started.")
+
+
+@app.on_event("shutdown")
+def shutdown_event():
+    print("[INFO] Stopping simulation loops...")
+    universe.is_running = False
+
+
+# ==========================================
+# Legacy Offline Executable CLI
+# ==========================================
+
+def run_legacy_cli():
     print("\n" + "=" * 50)
-    print("GDS V0.3")
+    print("GDS V0.6 (CLI Mode)")
     print("Geometric Data Synthesis")
     print("=" * 50)
 
-    # ===================================
-    # Initialize Engines
-    # ===================================
+    universe.initialize(training_data)
+    print(f"[INFO] Embedding Dimensions: {universe.embedding_engine.embedding_dimension()}")
+    print("[INFO] Knowledge Loaded")
+
+    # Reasoning Walk
+    print("\n=== REASONING ===")
+    reasoning_result = universe.trigger_reasoning(start_node_id=0, max_depth=5)
+    for step in reasoning_result["path"]:
+        print(f"\nNode {step['id']}")
+        print(step["content"])
+
+    print(f"\nTotal Energy: {reasoning_result['total_energy']:.4f}")
+    print(f"Confidence: {reasoning_result['confidence']:.4f}")
 
-    engine = GDSEmbeddingEngine()
-
-    manifold = GDSManifold()
-
-    memory = GDSMemoryEngine()
-
-    predictor = GDSPredictionEngine()
-
-    temporal = GDSTemporalEngine()
-
-
-    # ===================================
-    # Train Embedding Model
-    # ===================================
-
-    print("\n[INFO] Training engine...")
-
-    engine.fit(
-        training_data
-    )
-
-    print(
-        f"[INFO] Embedding dimensions: "
-        f"{engine.embedding_dimension()}"
-    )
-
-
-    # ===================================
-    # Create Initial Knowledge
-    # ===================================
-
-    print(
-        "\n[INFO] Building nodes..."
-    )
-
-
-    for i, text in enumerate(
-        training_data
-    ):
-
-        vector = (
-            engine.encode(
-                text
-            )[0]
-        )
-
-        manifold.add_node(
-            node_id=i,
-            content=text,
-            vector=vector
-        )
-
-        memory.store(
-            node_id=i,
-            content=text,
-            vector=vector
-        )
-
-        temporal.record_event(
-            i,
-            text
-        )
-
-
-    manifold.build_connections(
-        threshold=0.02
-    )
-
-    print(
-        "[INFO] Knowledge loaded"
-    )
-
-
-    # ===================================
-    # Dynamic Learning
-    # ===================================
-
-    print(
-        "\n=== DYNAMIC LEARNING ==="
-    )
-
-
-    new_knowledge = [
-
-        "Deep learning improves pattern recognition",
-
-        "Neural networks discover representations",
-
-        "Reasoning evolves through memory"
-
-    ]
-
-
-    for knowledge in new_knowledge:
-
-        node_id = (
-
-            GDSLearningEngine.learn(
-
-                text=knowledge,
-
-                engine=engine,
-
-                manifold=manifold,
-
-                memory=memory
-            )
-        )
-
-        temporal.record_event(
-            node_id,
-            knowledge
-        )
-
-        print(
-            f"Added Node: "
-            f"{node_id}"
-        )
-
-
-    # ===================================
-    # Show Graph
-    # ===================================
-
-    manifold.show_graph()
-
-
-    # ===================================
-    # Reasoning
-    # ===================================
-
-    print(
-        "\n=== REASONING ==="
-    )
-
-
-    result = (
-
-        GDSReasoningEngine.traverse(
-
-            manifold=manifold,
-
-            start_node=0,
-
-            max_depth=5
-        )
-    )
-
-
-    for step in result["path"]:
-
-        print()
-
-        print(
-            f"Node: "
-            f"{step['id']}"
-        )
-
-        print(
-            step["content"]
-        )
-
-
-    print(
-        f"\nTotal Energy: "
-        f"{result['total_energy']:.4f}"
-    )
-
-
-    # ===================================
-    # Learn Traversal
-    # ===================================
-
-    predictor.learn_path(
-        result["path"]
-    )
-
-
-    # ===================================
     # Memory Recall
-    # ===================================
+    print("\n=== MEMORY RECALL ===")
+    query = "Deep learning representation"
+    query_vector = universe.embedding_engine.encode(query)[0]
+    recalled = universe.memory_engine.recall(query_vector, top_k=3)
+    for item in recalled:
+        print(f"\nMemory {item['id']} (score={item['score']:.4f})")
+        print(item["content"])
 
-    print(
-        "\n=== MEMORY RECALL ==="
-    )
-
-
-    query = "Deep learning"
-
-    query_vector = (
-
-        engine.encode(
-            query
-        )[0]
-    )
-
-
-    recalled = (
-
-        memory.recall(
-
-            query_vector,
-
-            top_k=3
-        )
-    )
-
-
-    if len(recalled) == 0:
-
-        print(
-            "No memories found"
-        )
-
-    else:
-
-        for item in recalled:
-
-            print()
-
-            print(
-                f"Memory ID: "
-                f"{item['id']}"
-            )
-
-            print(
-                item["content"]
-            )
-
-            print(
-                f"Score: "
-                f"{item['score']:.4f}"
-            )
-
-
-    # ===================================
-    # Temporal History
-    # ===================================
-
-    print(
-        "\n=== TEMPORAL HISTORY ==="
-    )
-
-
-    recent = (
-
-        temporal.get_recent_events()
-    )
-
-
-    for event in recent:
-
-        print()
-
-        print(
-            f"Node: "
-            f"{event['node_id']}"
-        )
-
-        print(
-            event["content"]
-        )
-
-
-    # ===================================
     # Prediction
-    # ===================================
-
-    print(
-        "\n=== PREDICTION ==="
-    )
-
-
-    prediction = (
-
-        predictor.predict_next(
-            current_node=0
-        )
-    )
-
-
-    if prediction is not None:
-
-        predicted = (
-
-            manifold.nodes[
-                prediction
-            ]
-        )
-
-        print()
-
-        print(
-            "Predicted Future State:"
-        )
-
-        print(
-            predicted.content
-        )
-
-    else:
-
-        print(
-            "No prediction available"
-        )
-
+    print("\n=== PREDICTION ===")
+    futures = universe.trigger_prediction(start_node_id=0)
+    if futures:
+        print("\nAlternate predicted paths:")
+        for idx, fut in enumerate(futures):
+            print(f"Track {idx} (confidence={fut['confidence']:.2f}): {' -> '.join(map(str, fut['path']))}")
 
     print("\n" + "=" * 50)
-    print("GDS EXECUTION COMPLETE")
+    print("GDS OFFLINE EXECUTION COMPLETE")
     print("=" * 50)
 
 
 if __name__ == "__main__":
-    main()
+    import sys
+    # If run directly with no web requests, execute local synthesis test
+    if len(sys.argv) > 1 and sys.argv[1] == "--cli":
+        run_legacy_cli()
+    else:
+        # Run local server
+        import uvicorn
+        uvicorn.run("app:app", host="127.0.0.1", port=8000, reload=True)

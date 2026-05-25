@@ -27,7 +27,8 @@ class GDSManifold:
 
     def build_connections(
         self,
-        threshold=0.02
+        threshold=0.02,
+        min_connections=2
     ):
 
         # Clear previous graph
@@ -41,29 +42,29 @@ class GDSManifold:
         )
 
 
-        for i in range(
-            len(node_ids)
-        ):
+        similarities={}
+
+
+        # -----------------------------
+        # Compute all similarities
+        # -----------------------------
+
+        for i in range(len(node_ids)):
 
             for j in range(
                 i+1,
                 len(node_ids)
             ):
 
-                node1=(
-                    self.nodes[
-                        node_ids[i]
-                    ]
-                )
+                node1=self.nodes[
+                    node_ids[i]
+                ]
 
-                node2=(
-                    self.nodes[
-                        node_ids[j]
-                    ]
-                )
+                node2=self.nodes[
+                    node_ids[j]
+                ]
 
-
-                similarity=(
+                score=(
 
                     VectorUtils.cosine_similarity(
 
@@ -73,19 +74,121 @@ class GDSManifold:
                 )
 
 
-                if similarity>=threshold:
+                similarities[
+
+                    (
+                        node1.id,
+                        node2.id
+                    )
+
+                ]=score
+
+
+                if score>=threshold:
 
                     node1.add_connection(
 
                         node2.id,
-                        similarity
+                        score
                     )
 
                     node2.add_connection(
 
                         node1.id,
-                        similarity
+                        score
                     )
+
+
+        # -----------------------------
+        # Force bridge creation
+        # -----------------------------
+
+        for node in self.nodes.values():
+
+            if len(
+                node.connections
+            )<min_connections:
+
+                candidates=[]
+
+                for other in self.nodes.values():
+
+                    if other.id==node.id:
+
+                        continue
+
+
+                    key=tuple(
+
+                        sorted(
+
+                            (
+                                node.id,
+                                other.id
+                            )
+                        )
+                    )
+
+
+                    score=similarities.get(
+                        key,
+                        0
+                    )
+
+
+                    candidates.append(
+
+                        (
+                            other.id,
+                            score
+                        )
+                    )
+
+
+                candidates.sort(
+
+                    key=lambda x:x[1],
+
+                    reverse=True
+                )
+
+
+                needed=(
+
+                    min_connections
+                    -
+                    len(node.connections)
+                )
+
+
+                for target,score in candidates[:needed]:
+
+                    already=False
+
+
+                    for c in node.connections:
+
+                        if c["target"]==target:
+
+                            already=True
+                            break
+
+
+                    if not already:
+
+                        node.add_connection(
+
+                            target,
+                            score
+                        )
+
+                        self.nodes[
+                            target
+                        ].add_connection(
+
+                            node.id,
+                            score
+                        )
 
 
     def show_graph(self):
@@ -93,7 +196,6 @@ class GDSManifold:
         print(
             "\n=== GDS MANIFOLD ==="
         )
-
 
         for node in self.nodes.values():
 
@@ -112,7 +214,6 @@ class GDSManifold:
                 "Connections:"
             )
 
-
             if len(
                 node.connections
             )==0:
@@ -123,15 +224,15 @@ class GDSManifold:
 
             else:
 
-                for connection in node.connections:
+                for c in node.connections:
 
                     print(
 
                         f"→ Node "
 
-                        f"{connection['target']} "
+                        f"{c['target']} "
 
                         f"(weight="
 
-                        f"{connection['weight']:.4f})"
+                        f"{c['weight']:.4f})"
                     )

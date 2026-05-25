@@ -1,0 +1,51 @@
+{
+  "nodes":[
+    {
+      "id":"AI",
+      "energy":1,
+      "importance":1
+    },
+
+    {
+      "id":"Neural",
+      "energy":0.8,
+      "importance":0.8
+    },
+
+    {
+      "id":"Prediction",
+      "energy":0.5,
+      "importance":0.7
+    },
+
+    {
+      "id":"Memory",
+      "energy":0.2,
+      "importance":0.6
+    }
+  ],
+
+  "edges":[
+    {
+      "source":"AI",
+      "target":"Neural"
+    },
+
+    {
+      "source":"Neural",
+      "target":"Prediction"
+    },
+
+    {
+      "source":"Prediction",
+      "target":"Memory"
+    }
+  ],
+
+  "reasoning_path":[
+    "AI",
+    "Neural",
+    "Prediction",
+    "Memory"
+  ]
+}

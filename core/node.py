@@ -13,7 +13,7 @@ class GDSNode:
 
         self.vector = vector
 
-        self.connections = []
+        self.connections=[]
 
 
     def add_connection(
@@ -22,18 +22,30 @@ class GDSNode:
         similarity
     ):
 
-        self.connections.append({
+        connection={
 
-            "target": target_id,
-            "weight": similarity
+            "target":target_id,
 
-        })
+            "weight":similarity,
 
+            "usage":0
 
-    def __repr__(self):
+        }
 
-        return (
-            f"Node("
-            f"id={self.id}, "
-            f"connections={len(self.connections)})"
+        self.connections.append(
+            connection
         )
+
+
+    def update_usage(
+        self,
+        target_id
+    ):
+
+        for c in self.connections:
+
+            if c["target"]==target_id:
+
+                c["usage"]+=1
+
+                return
