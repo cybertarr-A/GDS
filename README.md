@@ -1,3 +1,5 @@
+<img width="1536" height="1024" alt="ChatGPT Image May 25, 2026, 03_48_40 PM" src="https://github.com/user-attachments/assets/446344a5-084f-4214-b200-def2eb614f61" />
+
 # 🌌 Geometric Data Synthesis (GDS) — Living Intelligence Universe
 
 ```text
